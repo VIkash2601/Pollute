@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/rx"
+                android:layout_weight="0.15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rx"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/rxData"
+                android:layout_weight="0.85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_weight="0.15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/statusData"
+                android:layout_weight="0.85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="@dimen/marginHorizontal">
+
+            <Button
+                android:id="@+id/btnOn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/turn_on"
+                android:textSize="16sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btnOff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/turn_off"
+                android:textSize="16sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/showPairedDevices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_paired_devices"
+                android:textSize="16sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/discover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/discover_new_device"
+                android:textSize="16sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/showData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_data"
+                android:textSize="16sp"
+                android:textAllCaps="false"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pollute</string>
+    <string name="rx">Rx:</string>
+    <string name="status">Status:</string>
+    <string name="turn_on">Turn On</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="show_paired_devices">Show Paired Devices</string>
+    <string name="discover_new_device">Discover New Device</string>
+    <string name="show_data">Show Data</string>
+</resources>
