@@ -7,4 +7,14 @@
     <string name="show_paired_devices">Show Paired Devices</string>
     <string name="discover_new_device">Discover New Device</string>
     <string name="show_data">Show Data</string>
+    <string name="connectedToDevice">Connected to Device:</string>
+    <string name="connectionFailed">Connection Failed!</string>
+    <string name="bluetoothNotFound">Bluetooth not found!</string>
+    <string name="enablingBluetooth">Enabling Bluetooth…</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="readBuffer">Read Buffer</string>
+    <string name="discoveryStopped">Discovery Stopped</string>
+    <string name="discovering">Discovering…</string>
+    <string name="connecting">Connecting…</string>
 </resources>
